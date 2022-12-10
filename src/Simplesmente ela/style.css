@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    text-align: justify;
+    
+}
+hr{
+    border-color: dimgray;
+    border-radius: 10px;
+}
+
+/* Paleta */
+#color-background {color: #282a36}
+#colo-CurrentLine {color: #44475a}
+#colo-Foreground {color: #f8f8f2}
+#colo-comment {color: #6272a4}
+#colo-Cyan {color: #8be9fd}
+#colo-Green {color: #50fa7b}
+#colo-Orange {color: #ffb86c}
+#colo-Pink {color: #ff79c6}
+#colo-Purple {color: #bd93f9}
+#colo-Red {color: #ff5555}
+#colo-Yellow {color: #f1fa8c}
+
+
+#cabeçalho-nav{
+    display: flex;
+    height: 200px;
+}
