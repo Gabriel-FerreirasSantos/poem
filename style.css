@@ -26,7 +26,7 @@ hr{
 
 
 #cabeçalho-nav{
-    height: 200px;
+    height: 210px;
     background-color: #282a36;
 }
 #div-foto{
@@ -40,23 +40,53 @@ hr{
 
 
 
-
-
 #corpo{
     background-color: #44475a;
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
+#corpo > h1{
+    margin: 20px;
+    color: white;
+    font-family: verdana;
+}
 .fileira{
     background-color: #191a25;
     color: #50fa7b;
     margin: 10px;
-    height: 200px;
+   
     border-radius: 10px;
-    
+    padding: 5px;
 }
+.cabeça-fileira{
+    height: 30px;
+    width: 160px;
+    font-family: Arial;
+    font-size: 23px;
+    color: white;
+    margin: 10px;
+}   
 
+.corpo-fileira{
+    height: 250px;
+}
+.corpo-fileira > div > a > img{
+    padding: 15px;
+    height: 180px;
+    width: 180px;
+    border-radius: 50px;
+    transition: 1s;
+}
+.corpo-fileira > div > a > img:hover{
+    height: 190px;
+    width: 190px;
+}
+#pdiv1{
+    color: white;
+    font-family: verdana;
+    text-align: center;
+}
 
 
 
