@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-align: justify;
+    
+}
+body{
+    background-color: #6272a4;
+}
+
+/* Paleta */
+#color-background {color: #282a36}
+#colo-CurrentLine {color: #44475a}
+#colo-Foreground {color: #f8f8f2}
+#colo-comment {color: #6272a4}
+#colo-Cyan {color: #8be9fd}
+#colo-Green {color: #50fa7b}
+#colo-Orange {color: #ffb86c}
+#colo-Pink {color: #ff79c6}
+#colo-Purple {color: #bd93f9}
+#colo-Red {color: #ff5555}
+#colo-Yellow {color: #f1fa8c}
+
+
+#cabeçalho-nav{
+    height: 210px;
+    background-color: #4D5B8A;
+    justify-content: center;
+    flex-direction: column;
+}
+#voltar{
+    background-color: #D6DFE0;
+    height: 30px;
+    width: 90px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+}
+#voltar > p{
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+#div-foto{
+    background-color: #D6DFE0;
+    width: 250px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 20px;
+    margin: auto;
+}
+#div-foto > p{
+    font-family: Verdana;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+#corpo{
+    background-color: #D6DFE0;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black ;
+}
+#corpo > header > p{
+    color: #CE2380;
+    font-size: 30px;
+    font-family: verdana;
+    margin-left: 20px;
+    font-style: italic;
+}
+#corpo > main{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#corpo > main > p{
+    color: #7e23fc;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: justify;
+}
